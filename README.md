@@ -1,0 +1,1 @@
+# ejecutar-operaci-n-selecionado
