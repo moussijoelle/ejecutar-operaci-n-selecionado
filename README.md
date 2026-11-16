@@ -1,28 +1,27 @@
-﻿# Ejecutar operación seleccionada
+# Calculadora de operación seleccionada
 
-Calculadora simple: dos números y un operador (+, −, ×, ÷).
+Dos números y eliges +, −, × o ÷.
 
 ## Qué hace
 
-- Inputs numéricos y selector de operación
-- Calcula el resultado al pulsar el botón
-- Valida campos vacíos o no numéricos
+- Inputs + selector de operador
+- Botón calcular
+- Avisa si falta algún número
 - Guía en `guia-ejercicio.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/ejecutar-operaci-n-selecionado/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`js/`)
-- `switch` según el operador
+`switch` en `js/` según el operador.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo las cuatro operaciones y la división por cero si aplica.
+Las cuatro operaciones y una división por cero si el código la contempla.
 
 ---
 
